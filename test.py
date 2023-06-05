@@ -33,4 +33,4 @@ args = parser.parse_args()
 result = args.result
 expected = args.expected
 
-compare_videos(result, expected, pixel_threshold=0.9)
+compare_videos(result, expected, pixel_threshold=0.99)
